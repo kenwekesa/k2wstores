@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Login">
+   <children>
+      <Pane layoutX="108.0" layoutY="61.0" prefHeight="276.0" prefWidth="401.0" styleClass="container-pane" stylesheets="@styles/loginstyle.css">
+         <children>
+            <TextField layoutX="67.0" layoutY="69.0" prefHeight="38.0" prefWidth="257.0" styleClass="input-field" stylesheets="@styles/loginstyle.css" />
+            <PasswordField layoutX="67.0" layoutY="147.0" prefHeight="45.0" prefWidth="257.0" styleClass="input-field" stylesheets="@styles/loginstyle.css" />
+            <Label layoutX="161.0" layoutY="23.0" text="LOGIN" />
+            <Button layoutX="135.0" layoutY="209.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="142.0" styleClass="login-button" stylesheets="@styles/loginstyle.css" text="Login" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
