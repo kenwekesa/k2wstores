@@ -4,3 +4,10 @@
   -fx-border-color: #0067cc;
   -fx-border-radius: 5px;
 }
+
+.home-icon-style
+{
+  -fx-background-color: white;
+  -fx-height : 10px;
+  -fx-width : 10px;
+}
